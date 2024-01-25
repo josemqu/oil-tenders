@@ -1,0 +1,6 @@
+### Obtener todas las ofertas de oil
+GET https://www.se.gob.ar/comercio_exterior_liquidos/oferta_com_ext_expo_store.php
+
+### Obtener todas las ofertas de oil
+GET http://localhost:8080/api/v1/tenders
+
