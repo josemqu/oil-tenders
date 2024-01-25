@@ -1,8 +1,9 @@
+/*
 import mongoose from "mongoose";
 import mongoosePaginate from "mongoose-paginate-v2";
 
 const tendersCollection = "tenders";
-
+*/
 /**
  * Tenders Schema Example
  *    [
@@ -40,7 +41,7 @@ const tendersCollection = "tenders";
     ]]
 
  */
-
+/*
 const tendersSchema = new mongoose.Schema({
   id: { type: String, required: true },
   date: { type: String, required: true },
@@ -61,3 +62,4 @@ const tendersSchema = new mongoose.Schema({
 tendersSchema.plugin(mongoosePaginate);
 
 export const tendersModel = mongoose.model(tendersCollection, tendersSchema);
+*/

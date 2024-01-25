@@ -1,4 +1,4 @@
-import { tendersRepository } from "../repositories/index.js";
+// import { tendersRepository } from "../repositories/index.js";
 import axios from "axios";
 
 class TendersService {

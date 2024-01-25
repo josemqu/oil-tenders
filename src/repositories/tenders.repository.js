@@ -1,3 +1,4 @@
+/*
 import { tendersModel } from "../models/tenders.model.js";
 
 class TendersRepository {
@@ -40,3 +41,4 @@ class TendersRepository {
 }
 
 export default TendersRepository;
+*/

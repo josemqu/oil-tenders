@@ -1,5 +1,5 @@
 import express from "express";
-import database from "./db.js";
+// import database from "./db.js";
 import routerAPI from "./routes/routes.js";
 import __dirname from "./utils.js";
 import config from "./config/config.js";
@@ -21,7 +21,7 @@ app.use("/", express.static(`${__dirname}/public`));
 app.use(cors);
 
 // Database connection
-database.connect();
+// database.connect();
 
 // Routes
 routerAPI(app);
