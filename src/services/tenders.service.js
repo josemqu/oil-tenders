@@ -47,7 +47,6 @@ class TendersService {
         finished: tender[13],
       };
     });
-    console.log(tendersArray);
 
     return tendersArray;
   }
